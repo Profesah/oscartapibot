@@ -1,5 +1,6 @@
 {
-    "require": {
+  heroku buildpacks:set heroku/php
+	"require": {
     	"php": ">=5.6",
         "slim/slim": "^3.0",
         "linecorp/line-bot-sdk": "^1.4",
